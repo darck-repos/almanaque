@@ -1,3 +1,10 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
 
 nav ul a,
 nav .brand-logo {
@@ -59,28 +66,43 @@ footer.page-footer {
 
 .contenedor-formulario h2{
   text-align: center;
+  font-family: 'Do Hyeon';
 }
 .material-icons {
   margin:0px 6px;
 }
 
-.opaco-image{
-  filter: opacity(40%);
+
+
+/*botón up*/
+.boton-subir{
+  display: none;
+  background: #3d8caf;
+  border: thin solid #3d8caf;
+  border-radius: 3px;
+  position: fixed;
+  right: 15px;
+  bottom:2px;
+  z-index: 999999999;
+}
+/*evento hover*/
+.boton-subir:hover{
+  box-shadow:   0px 2px 10px 0px rgba(255, 255, 255, 0.75);
+}
+/*estilos para el tag i*/
+.boton-subir i{
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 10px 10px 7px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
 }
 
-.texto-imagen{
-  color: #002f6c;
-  font-family: 'Dosis', sans-serif;
+#promociones{
+  background-image: url("../imagenes/fondo1.jpg");
 }
 
-.botones{
-  background: #002f6c;
-}
-
-.botones:hover{
-  background: #206fd6;
-}
-
-.iconos-color{
-  color: #002f6c;
+#anuncionOne{
+    
 }
