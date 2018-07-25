@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.contenedor-formulario{
+  border-style: ridge; 
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 1px;
+}
+
+.contenedor-formulario h2{
+  text-align: center;
+  font-family: 'Do Hyeon';
+}
+.material-icons {
+  margin:0px 6px;
+}
+
+
+
+/*botón up*/
+.boton-subir{
+  display: none;
+  background: #3d8caf;
+  border: thin solid #3d8caf;
+  border-radius: 3px;
+  position: fixed;
+  right: 15px;
+  bottom:2px;
+  z-index: 999999999;
+}
+/*evento hover*/
+.boton-subir:hover{
+  box-shadow:   0px 2px 10px 0px rgba(255, 255, 255, 0.75);
+}
+/*estilos para el tag i*/
+.boton-subir i{
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 10px 10px 7px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+#promociones{
+  background-image: url("../imagenes/fondo1.jpg");
+}
+
+#anuncionOne{
+    
+}
