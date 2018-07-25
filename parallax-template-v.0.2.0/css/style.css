@@ -1,10 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
 nav ul a,
 nav .brand-logo {
@@ -66,8 +59,28 @@ footer.page-footer {
 
 .contenedor-formulario h2{
   text-align: center;
-  font-family: 'Do Hyeon';
 }
 .material-icons {
   margin:0px 6px;
+}
+
+.opaco-image{
+  filter: opacity(40%);
+}
+
+.texto-imagen{
+  color: #002f6c;
+  font-family: 'Dosis', sans-serif;
+}
+
+.botones{
+  background: #002f6c;
+}
+
+.botones:hover{
+  background: #206fd6;
+}
+
+.iconos-color{
+  color: #002f6c;
 }
