@@ -1,0 +1,96 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.contenedor-formulario{
+  border-style: ridge; 
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 1px;
+}
+
+.contenedor-formulario h2{
+  text-align: center;
+}
+.material-icons {
+  margin:0px 6px;
+}
+
+.opaco-image{
+  filter: opacity(40%);
+}
+
+.texto-imagen{
+  color: #002f6c;
+  font-family: 'Dosis', sans-serif;
+}
+
+.botones{
+  background: #002f6c;
+}
+
+.botones:hover{
+  background: #206fd6;
+}
+
+.iconos-color{
+  color: #002f6c;
+}
+
+
+
+
+.texto-admin {
+  font-family: 'Dosis', sans-serif;
+  font-style : normal;
+  font-size: medium;
+  color: #000000;
+}
